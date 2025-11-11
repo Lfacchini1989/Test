@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modello 3D – Sketchfab</title>
+
+    <style>
+      body {
+        margin: 0;
+        background-color: #0d0d0d;
+        color: #f5f5f5;
+        font-family: "Segoe UI", Roboto, Helvetica, sans-serif;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        min-height: 100vh;
+      }
+
+      header {
+        text-align: center;
+        padding: 40px 10px 20px;
+      }
+
+      .logo {
+        font-size: 2em;
+        font-weight: bold;
+        letter-spacing: 2px;
+        color: #00bcd4;
+        text-transform: uppercase;
+      }
+
+      p.description {
+        font-size: 1.1em;
+        max-width: 600px;
+        color: #ccc;
+        margin: 10px auto 30px;
+      }
+
+      iframe {
+        border: none;
+        width: 90vw;
+        height: 70vh;
+        max-width: 1000px;
+        max-height: 800px;
+        border-radius: 10px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+      }
+
+      footer {
+        color: #666;
+        font-size: 0.9em;
+        margin-top: 20px;
+        padding-bottom: 30px;
+      }
+
+      footer a {
+        color: #00bcd4;
+        text-decoration: none;
+      }
+
+      footer a:hover {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <div class="logo">3D Model Viewer</div>
+      <p class="description">
+        Un viewer 3D in tema scuro, realizzato con Sketchfab e pubblicato su GitHub Pages.
+      </p>
+    </header>
+
+    <!-- ✅ Modello Sketchfab aggiornato -->
+    <iframe
+      title="Modello 3D - Sketchfab"
+      allowfullscreen
+      mozallowfullscreen="true"
+      webkitallowfullscreen="true"
+      src="https://sketchfab.com/models/pD8Ht/embed">
+    </iframe>
+
+    <footer>
+      <p>
+        Visualizza il modello su
+        <a href="https://skfb.ly/pD8Ht" target="_blank">Sketchfab</a>
+        • Realizzato in Blender
+      </p>
+    </footer>
+  </body>
+</html>
